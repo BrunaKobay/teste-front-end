@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
+@layer components {
+  .input-field {
+    @apply bg-[#F4F7FC] text-[#454545] text-center text-sm  py-2  w-full rounded-md;
+  }
+}
